@@ -21,5 +21,6 @@ from blog import views
 urlpatterns = [
     url(r'^$', views.home, name="home"),
     url(r'^about/$', views.about, name="about"),
+    url(r'^socialmedia/$', views.socialmedia, name="socialmedia"),
     url(r'^admin/', admin.site.urls),
 ]
